@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="primary" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="644.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainInterface.Controller">
+   <children>
+      <Button fx:id="service_btn" layoutX="327.0" mnemonicParsing="false" onAction="#pressService" prefHeight="804.0" prefWidth="316.0" text="Service">
+         <font>
+            <Font name="Helvetica Neue" size="24.0" />
+         </font>
+      </Button>
+    <Button fx:id="pressAdmin" mnemonicParsing="false" onAction="#pressAdmin" prefHeight="804.0" prefWidth="327.0" text="Administration">
+         <font>
+            <Font name="Helvetica Neue" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="primary" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="900.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox fx:id="box" alignment="CENTER" prefHeight="97.0" prefWidth="900.0" styleClass="box" stylesheets="@../style.css">
+         <children>
+            <Text fill="#dddddd" strokeType="OUTSIDE" strokeWidth="0.0" text="Food Menu" textAlignment="CENTER">
+               <font>
+                  <Font name="Avenir Next Bold" size="52.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+      <Accordion layoutY="95.0" prefHeight="705.0" prefWidth="899.0">
+        <panes>
+          <TitledPane alignment="TOP_CENTER" animated="false" text="Main" textAlignment="CENTER">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+               <font>
+                  <Font name="Andale Mono" size="26.0" />
+               </font>
+          </TitledPane>
+            <TitledPane alignment="TOP_CENTER" animated="false" text="Soup" textAlignment="CENTER">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+               </content>
+               <font>
+                  <Font name="Andale Mono" size="26.0" />
+               </font>
+            </TitledPane>
+            <TitledPane alignment="TOP_CENTER" animated="false" text="Dessert" textAlignment="CENTER">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+               </content>
+               <font>
+                  <Font name="Andale Mono" size="26.0" />
+               </font>
+            </TitledPane>
+            <TitledPane alignment="TOP_CENTER" animated="false" text="Bewerages" textAlignment="CENTER">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+               </content>
+               <font>
+                  <Font name="Andale Mono" size="26.0" />
+               </font>
+            </TitledPane>
+        </panes>
+      </Accordion>
+   </children>
+</AnchorPane>

@@ -1,0 +1,12 @@
+.box {
+    -fx-background-color: #5A5A5A;
+}
+.boxx{
+    -fx-background-color: FF2A00;
+}
+
+.btn:hover{
+    -fx-border-color: FF2A00;
+    -fx-border-image-width: 0 0 0 6px;
+    -fx-border-style: solid;
+}
